@@ -244,8 +244,8 @@ function initProjectFilters() {
 const projectData = {
   1: {
     title: 'Sistem Informasi Penjualan Kemplang Aleng',
-    category: 'Academic Project • E-Commerce & Web Development',
-    tag: 'Academic Project',
+    category: 'Web Dev • E-Commerce & Full Stack Development',
+    tag: 'Web Dev',
     image: 'assets/projects/sistempenjualan/Screenshot 2026-04-21 185842.png',
     description: 'Sistem Informasi Penjualan Kemplang Aleng berbasis web yang dikembangkan menggunakan framework PHP CodeIgniter dan basis data MySQL. Dirancang secara komprehensif untuk mendigitalkan seluruh alur bisnis UMKM Toko Kemplang Aleng Palembang—mulai dari etalase katalog produk interaktif, keranjang belanja dengan akumulasi berat otomatis, integrasi pembayaran multi-channel otomatis via Midtrans Payment Gateway, kalkulasi ongkos kirim real-time berdasarkan bobot produk dan kota tujuan via API RajaOngkir, pelacakan perjalanan nomor resi pengiriman real-time via API BinderByte, hingga dashboard analitik penjualan dan cetak laporan keuangan bulanan.',
     features: [
@@ -275,8 +275,8 @@ const projectData = {
   },
   2: {
     title: 'Pemetaan Peta Administrasi Desa Mekar Jadi Menggunakan Software ArcGIS',
-    category: 'Academic / KKN Project • Geographic Information System (GIS) & Pemetaan Spasial',
-    tag: 'Academic • GIS Project',
+    category: 'Data Analyst • Geographic Information System (GIS) & Spatial Data',
+    tag: 'Data Analyst',
     image: 'assets/projects/PEMETAAN PETA ADMINISTRASI DESA MEKAR JADI MENGGUNAKAN SOFTWARE ARCGIS/Peta Arcgis Desa mekar jadi.jpg',
     description: 'Proyek pemetaan spasial dan penyusunan peta batas administrasi Desa Mekar Jadi (Kecamatan Sungai Lilin, Kabupaten Musi Banyuasin, Sumatera Selatan) menggunakan perangkat lunak ArcGIS Desktop yang dipadukan dengan citra satelit resolusi tinggi Google Earth Pro serta survei lapangan langsung. Proyek ini dijalankan guna menghadirkan acuan kartografi resmi mengenai batas teritorial desa, jaringan transportasi jalan, aliran hidrologi sungai, zonasi pemukiman warga, dan tutupan lahan perkebunan desa.',
     features: [
@@ -298,8 +298,8 @@ const projectData = {
   },
   3: {
     title: 'Perancangan Sistem E-Surat Berbasis Web pada Dinas Perpustakaan dan Kearsipan Kota Palembang',
-    category: 'Academic / Internship Project • Web Application & Sistem Informasi Manajemen',
-    tag: 'Academic • Public Sector',
+    category: 'Web Dev • Web Application & Sistem Informasi Manajemen',
+    tag: 'Web Dev',
     image: 'assets/projects/PERANCANGAN SISTEM ESURAT BERBASIS WEB PADA DINAS PERPUSTAKAAN DAN KEARSIPAN KOTA PALEMBANG/Halaman dashboard.png',
     description: 'Sistem Informasi Manajemen E-Surat berbasis web yang dirancang khusus untuk mendigitalkan dan mengefisiensikan tata kelola administrasi korespondensi persuratan pada Dinas Perpustakaan dan Kearsipan Kota Palembang. Sistem ini mentransformasi proses pencatatan konvensional menjadi terpusat secara digital, mencakup dashboard metrik volume surat, agenda surat masuk dan keluar terstruktur, formulir registrasi surat baru, upload dan pratinjau berkas digital (PDF), serta pencarian arsip secara cepat dan terorganisir.',
     features: [
@@ -321,6 +321,33 @@ const projectData = {
     ],
     demo: '#',
     code: 'https://wa.me/62895604672318?text=Halo%20M.%20Abdul%20Rahman,%20saya%20tertarik%20dengan%20proyek%20Perancangan%20Sistem%20E-Surat%20Dinas%20Perpustakaan%20dan%20Kearsipan'
+  },
+  4: {
+    title: 'Analisis Performa Penjualan Pizza (Pizza Sales Performance Analysis)',
+    category: 'Data Analyst • Business Intelligence & Sales Performance Analysis',
+    tag: 'Data Analyst',
+    image: 'assets/projects/ANALISIS PERFORMA PENJUALAN PIZZA/Screenshot 2026-11-03 114451.png',
+    description: 'Proyek Business Intelligence dan analisis data komprehensif terhadap 48.620 baris transaksi penjualan pizza sepanjang tahun 2015 (mencakup 21.350 pesanan unik dan 49.574 unit pizza terjual). Analisis ini mengevaluasi 7 KPI utama bisnis untuk mengidentifikasi pendorong pendapatan (revenue drivers), preferensi produk, pola pembelian musiman dan jam sibuk, hingga menu engineering. Alur pengerjaan mencakup seluruh siklus analitik data: pembersihan data mentah (CSV ke Cleaned Excel Table), perancangan dashboard interaktif berbasis PivotTable, PivotChart, dan Slicer dinamis, hingga penyusunan rekomendasi strategis bisnis taktis (actionable recommendations) untuk optimalisasi omzet dan operasional dapur.',
+    features: [
+      'Evaluasi 7 KPI Utama Bisnis: Menganalisis metrik Total Revenue ($817.860,05), Total Orders (21.350 transaksi), Total Pizza Sold (49.574 unit), Average Order Value ($38,31), Average Pizzas per Order (2,32 unit), persentase kategori, dan tren penjualan tahunan.',
+      'Pembersihan & Validasi Kualitas Data (Data Cleaning & QC): Transformasi data mentah teks (Raw CSV) menjadi tabel terstruktur (Cleaned Excel Table) 12 kolom tanpa missing/null value, standardisasi tipe numerik dan tanggal ISO, serta verifikasi konsistensi formula (quantity × unit_price).',
+      'Dashboard Interaktif Microsoft Excel: Dashboard visual terintegrasi dengan filter Slicer dinamis (berdasarkan periode waktu dan kategori pizza) untuk memudahkan eksplorasi data secara real-time dan intuitif bagi pengambil keputusan.',
+      'Analisis Tren Pendapatan & Pola Waktu: Analisis pola musiman pendapatan bulanan (puncak penjualan di musim semi/panas, perlambatan di musim gugur) serta pola jam sibuk harian (57% pendapatan terkonsentrasi di 5 jam krusial 12:00-13:59 & 17:00-19:59 dengan lonjakan tajam pada hari Jumat).',
+      'Analisis Kontribusi Kategori & Ukuran (Size): Menemukan kontribusi pendapatan tertinggi berasal dari Pizza Ukuran Large (45,89% revenue / $375,3k) serta dominasi kategori Classic & Supreme dalam volume pesanan.',
+      'Menu Engineering & Rekomendasi Taktis: Merumuskan 4 strategi berbasis data: promosi Upselling upgrade ke Large (+ $3), penyesuaian jadwal shift & pre-prep bahan saat jam sibuk, promo Family Feast Bundle di hari sepi (Minggu), dan eliminasi SKU XXL berkinerja rendah (hanya terjual 28 unit/tahun) untuk memangkas modal loyang/kotak dan menekan food waste.'
+    ],
+    tech: ['Microsoft Excel', 'PivotTable & PivotChart', 'Interactive Slicers', 'Data Cleaning & Preprocessing', 'Business Intelligence (BI)', 'Sales Trend Analysis', 'KPI & Business Metrics', 'Menu Engineering'],
+    gallery: [
+      { src: 'assets/projects/ANALISIS PERFORMA PENJUALAN PIZZA/Screenshot 2026-11-03 114451.png', label: 'Dashboard Interaktif' },
+      { src: 'assets/projects/ANALISIS PERFORMA PENJUALAN PIZZA/Screenshot 2026-11-03 141141.png', label: 'Executive KPI Summary' },
+      { src: 'assets/projects/ANALISIS PERFORMA PENJUALAN PIZZA/Screenshot 2026-11-03 141212.png', label: 'Arsitektur Data & QC' },
+      { src: 'assets/projects/ANALISIS PERFORMA PENJUALAN PIZZA/Screenshot 2026-11-03 141227.png', label: 'Tren Pendapatan & Waktu' },
+      { src: 'assets/projects/ANALISIS PERFORMA PENJUALAN PIZZA/Screenshot 2026-11-03 141342.png', label: 'Rekomendasi Bisnis' },
+      { src: 'assets/projects/ANALISIS PERFORMA PENJUALAN PIZZA/Screenshot 2026-11-03 114642.png', label: 'Cleaned Excel Dataset' },
+      { src: 'assets/projects/ANALISIS PERFORMA PENJUALAN PIZZA/Screenshot 2026-11-03 115110.png', label: 'Raw CSV Data' }
+    ],
+    demo: 'https://drive.google.com/file/d/1A3n127oNgc8vqLDm_XV9-dYCWR0X4Cvf/view',
+    code: 'https://wa.me/62895604672318?text=Halo%20M.%20Abdul%20Rahman,%20saya%20tertarik%20dengan%20proyek%20Analisis%20Performa%20Penjualan%20Pizza'
   }
 };
 
@@ -335,7 +362,7 @@ function initProjectModal() {
   const modalFeatures = document.getElementById('modal-features');
   const modalTech = document.getElementById('modal-tech');
   const modalDemo = document.getElementById('modal-demo');
-  const modalCode = document.getElementById('modal-code');
+  const modalActionsFooter = document.getElementById('modal-actions-footer');
   const galleryContainer = document.getElementById('modal-gallery-container');
   const galleryGrid = document.getElementById('modal-gallery');
 
@@ -365,6 +392,8 @@ function initProjectModal() {
             galleryGrid.className = 'grid grid-cols-3 max-w-md mx-auto gap-2.5';
           } else if (data.gallery.length <= 6) {
             galleryGrid.className = 'grid grid-cols-3 sm:grid-cols-6 max-w-3xl mx-auto gap-2';
+          } else if (data.gallery.length <= 7) {
+            galleryGrid.className = 'grid grid-cols-3 sm:grid-cols-4 md:grid-cols-7 max-w-4xl mx-auto gap-2';
           } else {
             galleryGrid.className = 'grid grid-cols-3 sm:grid-cols-5 md:grid-cols-9 gap-2';
           }
@@ -416,29 +445,25 @@ function initProjectModal() {
         modalTech.appendChild(span);
       });
 
-      // Demo and CV buttons (if present)
-      if (modalDemo) {
+      // Action button footer: only shown for projects with an active link (e.g. Analisis Performa Penjualan Pizza)
+      if (modalActionsFooter) {
         if (data.demo && data.demo !== '#') {
-          modalDemo.href = data.demo;
-          modalDemo.target = '_blank';
-          modalDemo.rel = 'noopener noreferrer';
-          modalDemo.removeAttribute('download');
-          modalDemo.innerHTML = `<i class="fa-solid fa-arrow-up-right-from-square text-xs"></i> <span>Kunjungi Sistem Live</span>`;
+          modalActionsFooter.classList.remove('hidden');
+          modalActionsFooter.classList.add('flex');
+          if (modalDemo) {
+            modalDemo.href = data.demo;
+            modalDemo.target = '_blank';
+            modalDemo.rel = 'noopener noreferrer';
+            modalDemo.removeAttribute('download');
+            modalDemo.innerHTML = `
+              <i class="fa-solid fa-file-excel text-emerald-600 text-sm"></i>
+              <span>Buka Project (Google Drive)</span>
+              <i class="fa-solid fa-arrow-up-right-from-square text-[11px] text-slate-600 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform"></i>
+            `;
+          }
         } else {
-          modalDemo.href = 'assets/cv-m-abdul-rahman.pdf';
-          modalDemo.setAttribute('download', 'CV_M_Abdul_Rahman.pdf');
-          modalDemo.target = '_self';
-          modalDemo.removeAttribute('rel');
-          modalDemo.innerHTML = `<i class="fa-solid fa-file-pdf text-xs"></i> <span>Lihat CV Lengkap</span>`;
-        }
-      }
-
-      if (modalCode) {
-        if (data.code && data.code.startsWith('https://wa.me')) {
-          modalCode.href = data.code;
-          modalCode.innerHTML = `<i class="fa-brands fa-whatsapp text-emerald-400 text-sm"></i> <span>Tanya Proyek via WA</span>`;
-        } else {
-          modalCode.href = data.code || '#';
+          modalActionsFooter.classList.add('hidden');
+          modalActionsFooter.classList.remove('flex');
         }
       }
 
